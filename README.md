@@ -1,4 +1,4 @@
-# Sistem Informasi Absensi – Administrator
+# Sistem Informasi Absensi
 
 # Deskripsi
 Website Administrator merupakan bagian dari Sistem Informasi Absensi Mahasiswa (SIA) yang digunakan untuk mengelola data akademik dan memantau aktivitas sistem. Halaman ini dirancang untuk memudahkan administrator dalam mengakses informasi mahasiswa, jadwal perkuliahan, dan rekap absensi.
