@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin | Sistem Absensi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="admin">
+
+  <header class="topbar">
+    <a class="brand" href="#" data-page="dashboard">
+      <span class="brand-icon">A</span>
+      <span>SIA<span class="brand-sub">Sistem Informasi Absensi</span></span>
+    </a>
+    <span class="role">ADMINISTRATOR</span>
+    <span class="profile">● Pusat</span>
+  </header>
+
+  <div class="layout">
+    <nav class="navigation">
+      <p class="nav-caption">MENU UTAMA</p>
+      <button class="nav-item" type="button" data-page="dashboard">Dashboard</button>
+      <button class="nav-item" type="button" data-page="mahasiswa">Data Mahasiswa</button>
+      <button class="nav-item" type="button" data-page="jadwal">Data Jadwal</button>
+      <button class="nav-item" type="button" data-page="rekap">Rekap Absensi</button>
+      <button class="nav-item" type="button" data-page="form">Tambah Mahasiswa</button>
+      <div class="nav-foot">Sistem Absensi<br><small>UTS · Kelompok 7</small></div>
+    </nav>
+
+    <main class="main">
+      <div class="page-head">
+        <div>
+          <p class="eyebrow">ADMINISTRATOR</p>
+          <h1>Pusat Pengelolaan Data</h1>
+          <p>Kelola data akademik dan pantau aktivitas sistem.</p>
+        </div>
+        <span class="today">TAHUN AKADEMIK 2026/2027</span>
+      </div>
+
+      <div id="app-content">
+        <section class="hero">
+          <div>
+            <span class="hero-kicker">SISTEM ABSENSI MAHASISWA</span>
+            <h2>Kelola data akademik dan pantau aktivitas sistem.</h2>
+            <p>Gunakan menu untuk membuka fitur yang tersedia.</p>
+          </div>
+          <div class="hero-mark">SIA</div>
+        </section>
+
+        <section class="stats">
+          <article class="stat"><span>Mahasiswa</span><strong>248</strong></article>
+          <article class="stat"><span>Dosen</span><strong>18</strong></article>
+          <article class="stat"><span>Jadwal Aktif</span><strong>32</strong></article>
+          <article class="stat"><span>Perlu Ditinjau</span><strong>6</strong></article>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head">
+            <div>
+              <h2>Aktivitas Terbaru</h2>
+              <p>Contoh data yang ditampilkan pada dashboard.</p>
+            </div>
+            <button class="small-btn" type="button" data-page="rekap">Lihat rekap →</button>
+          </div>
+          <div class="activity">
+            <span class="dot"></span>
+            <div>
+              <b>Data absensi diperbarui</b>
+              <p>Contoh aktivitas sistem · Hari ini</p>
+            </div>
+          </div>
+          <div class="activity">
+            <span class="dot orange"></span>
+            <div>
+              <b>Jadwal perkuliahan tersedia</b>
+              <p>Data contoh untuk demonstrasi UTS</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer>© 2026 Sistem Absensi Mahasiswa · Proyek UTS</footer>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
